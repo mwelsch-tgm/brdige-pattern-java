@@ -8,8 +8,7 @@ public class Classic extends Pizza {
 	}
 
 	public String bake() {
-
-		return "A pizza with the size of: "+radius+" and: " + ingredients.taste();
+		return "A pizza with the size of: "+radius+". Taste: " + ingredients.taste();
 	}
 
 }
