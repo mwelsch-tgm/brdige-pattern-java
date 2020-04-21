@@ -3,9 +3,11 @@ public class Mozzarella implements Ingredients {
 
 	/**
 	 * @see Ingredients#taste()
+	 * @return
 	 */
-	public void taste() {
+	public String taste() {
 
+		return null;
 	}
 
 }

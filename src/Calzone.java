@@ -6,8 +6,9 @@ public class Calzone extends Pizza {
 
 	}
 
-	public void bake() {
+	public String bake() {
 
+		return null;
 	}
 
 }

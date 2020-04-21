@@ -1,5 +1,5 @@
 public interface Ingredients {
 
-	public abstract void taste();
+	public abstract String taste();
 
 }

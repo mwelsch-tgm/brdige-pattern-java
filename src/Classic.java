@@ -6,8 +6,9 @@ public class Classic extends Pizza {
 
 	}
 
-	public void bake() {
+	public String bake() {
 
+		return null;
 	}
 
 }
