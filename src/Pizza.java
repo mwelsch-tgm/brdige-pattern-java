@@ -1,4 +1,4 @@
-public class Pizza {
+public abstract class Pizza {
 
 	public Ingredients ingredients;
 
@@ -6,8 +6,6 @@ public class Pizza {
 
 	}
 
-	public String bake() {
-		return null;
-	}
+	public abstract String bake();
 
 }
