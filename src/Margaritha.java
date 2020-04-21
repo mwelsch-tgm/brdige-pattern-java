@@ -1,4 +1,4 @@
-public class Mozzarella implements Ingredients {
+public class Margaritha implements Ingredients {
 
 
 	/**
@@ -7,7 +7,7 @@ public class Mozzarella implements Ingredients {
 	 */
 	public String taste() {
 
-		return null;
+		return "Just tomato sauce";
 	}
 
 }

@@ -3,9 +3,10 @@ public class Bacon implements Ingredients {
 
 	/**
 	 * @see Ingredients#taste()
+	 * @return
 	 */
-	public void taste() {
-
+	public String taste() {
+		return "Tomato sauce with Bacon cheese and corn";
 	}
 
 }

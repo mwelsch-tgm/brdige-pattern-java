@@ -2,13 +2,14 @@ public class Calzone extends Pizza {
 
 	private int persons;
 
-	public void Calzone() {
-
+	public Calzone(int persons, Ingredients ingredients) {
+		this.persons = persons;
+		this.ingredients = ingredients;
 	}
 
 	public String bake() {
 
-		return null;
+		return "A folded pizza for "+persons+" persons. Taste: "+ingredients.taste();
 	}
 
 }
